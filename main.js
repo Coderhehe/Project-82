@@ -6,7 +6,7 @@ canvas.addEventListener("mousedown",mymousedown);
  
 function mymousedown(e)
 {
-mouseevent = "mousedown";
+mouseEvent = "mousedown";
 
 }
 
@@ -27,4 +27,20 @@ function mymousemove(e)
     }
    
 }
+canvas.addEventListener("mouseup",mymouseup);
+ 
+function mymouseup(e)
+{
+mouseEvent = "mouseup";
+}
+
+canvas.addEventListener("mouseleave",mymouseleave);
+ 
+function mymouseleave(e)
+{
+mouseEvent = "mouseleave";
+
+}
+
+
 
